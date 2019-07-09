@@ -135,14 +135,14 @@ body{
 }
 .project-img{
   position:relative;
-  border-radius: 40px;
+  border-radius: 3em;
   margin-left:45vw;
   top:10vh;
   width:30vw;
 }
 .project-img-inverse{
   position: absolute;
-  border-radius: 40px;
+  border-radius: 3em;
   top:10vh;
   padding-left:3%;
   width:30vw;
