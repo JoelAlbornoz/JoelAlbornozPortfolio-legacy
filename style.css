@@ -141,10 +141,10 @@ body{
   width:30vw;
 }
 .project-img-inverse{
-  position: absolute;
+  position: relative;
   border-radius: 3em;
   top:10vh;
-  padding-left:3%;
+  margin-right: 45vw;
   width:30vw;
 }
 .arrow-inverse{
