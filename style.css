@@ -122,10 +122,6 @@ body{
   transform: rotate(45deg);
 }
 
-img{
-border-radius: 40px;
-}
-
 .project-description{
   position:absolute;
   top:30%;
@@ -139,12 +135,14 @@ border-radius: 40px;
 }
 .project-img{
   position:relative;
+  border-radius: 40px;
   margin-left:45vw;
   top:10vh;
   width:30vw;
 }
 .project-img-inverse{
   position: absolute;
+  border-radius: 40px;
   top:10vh;
   padding-left:3%;
   width:30vw;
