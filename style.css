@@ -144,7 +144,7 @@ body{
   position: relative;
   border-radius: 3em;
   top:10vh;
-  margin-right: 45vw;
+  padding-right: 5%;
   width:30vw;
 }
 .arrow-inverse{
