@@ -139,8 +139,15 @@ body{
   margin-left:45vw;
   top:10vh;
   width:30vw;
+  -webkit-box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
+   box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
 }
 .project-img-inverse{
+  -webkit-box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
+   box-shadow: 20px 20px 21px 0px rgba(0,0,0,0.75);
+
   position: absolute;
   top:10vh;
   margin-left:30px;
