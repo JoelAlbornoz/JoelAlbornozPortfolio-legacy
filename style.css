@@ -1,11 +1,9 @@
 a{
   position:relative;
   bottom:0.5vh;
-  text-decoration:none;
-  font: italic 3vh 'Orbitron';
+  font: bold 5vh 'Roboto';
   text-transform:uppercase;
-  text-shadow:-1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(167, 221, 255, 1), 0 -6px 7px rgba(0, 0, 0, 0.5);
-  color:#e008c7;
+  color:#000;
   padding-left:1vw;
 }
 a:hover{
@@ -16,11 +14,10 @@ a:hover{
  top:-10vh;
 }
 body{
-  font: italic 16px 'Orbitron';
+  font: bold 20px 'Roboto';
   text-transform:uppercase;
-  text-shadow:-1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(167, 221, 255, 1), 0 -6px 7px rgba(0, 0, 0, 0.5);
-  color:##0d00ff;
-  background-image: linear-gradient(45deg,  #180d44 24%,#ff23d8 29%,#220e49 29%,#270f4b 30%,#2f1050 35%,#93edff 36%,#7c1d76 50%,#c73fbe 53%,#7f1d77 53%,#8a1f7d 60%,#180d44 67%,#93edff 72%,#180d44 72%,#180d44 86%,#93edff 86%,#180d44 87%,#180d44 100%);
+  color:#000;
+  background-color: #494CA2;
 }
 #navbar{
   text-align:center;
@@ -32,8 +29,7 @@ body{
   width:100vw;
   height:5vh;
   z-index:1;
-  background-color:#2108e0;
-  background: -webkit-linear-gradient(left,  #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+  background-color:#8186d5;
   border-radius: 8px;
 }
 #welcome-section{
@@ -91,24 +87,24 @@ body{
 
 @keyframes popup{
   0%{left:-70vw;
-    background-color:#73003d;} 
+    background-color:#000;} 
   95%{left:0vw;
-  background-color:#ff0084;}
+  }
   99%{left:0vw;
-  background-color:#20f8ff;}
+  }
   100%{left:0vw;
-  background-color:#ff0084;}
+  background-color:#8186d5;}
 }
 
 @keyframes popup-inverse{
   0%{left:90vw;
-  background-color:#73003d;}
+  background-color:#000;}
   95%{left:25vw;
-  background-color:#ff0084;} 
+  } 
   98%{left:25vw;
-  background-color:#20f8ff;} 
+  } 
   100%{left:25vw;
-  background-color:#ff0084;} 
+  background-color:#8186d5;} 
 }
 .arrow {
   position:absolute;
@@ -160,7 +156,7 @@ body{
 }
 #ytlink{
   border-radius:8px;
-  background-color:cyan;
+  background-color:#C6CBEF;
   color:#000;
   text-shadow:none;
 }
